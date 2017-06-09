@@ -1,0 +1,367 @@
+!SESSION 2017-06-09 12:52:49.432 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY mega.js.tern 1 0 2017-06-09 12:53:04.795
+!MESSAGE Started Node.js v5.9.1 (V8 v4.6.85.31) in 738.1 ms
+
+!ENTRY mega.js.tern 1 0 2017-06-09 12:53:05.014
+!MESSAGE Loading tern.js...
+
+
+!ENTRY mega.js.tern 1 0 2017-06-09 12:53:05.014
+!MESSAGE Loading library ecma5
+
+
+!ENTRY mega.js.tern 1 0 2017-06-09 12:53:05.029
+!MESSAGE Loading library browser
+
+
+!ENTRY mega.js.tern 1 0 2017-06-09 12:53:05.029
+!MESSAGE Loading library ecma6
+
+
+!ENTRY mega.js.tern 1 0 2017-06-09 12:53:05.045
+!MESSAGE Loading plugin doc_comment
+
+
+!ENTRY mega.js.tern 1 0 2017-06-09 12:53:05.076
+!MESSAGE Loading plugin aura
+
+
+!ENTRY mega.js.tern 1 0 2017-06-09 12:53:06.540
+!MESSAGE Tern.js (0.19.0) ready
+
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-06-09 12:53:12.027
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\nandar4'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY mega.js.tern 1 0 2017-06-09 12:53:22.337
+!MESSAGE ':core' project is not available. Please add '<module>:core</module>' to your list of partial build modules. If using para, set 'ide-search-all-files: true' and run 'para refresh'
+
+!ENTRY mega.js.tern 1 0 2017-06-09 12:53:22.368
+!MESSAGE Analyzed Lightning System JavaScript Support in 27.47 ms
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2017-06-09 12:54:56.948
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at https://developer.salesforce.com/media/force-ide/eclipse45/37.0.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:353)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:244)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:74)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2017-06-09 12:54:56.948
+!MESSAGE No repository found at https://developer.salesforce.com/media/force-ide/eclipse45/37.0.
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 13:30:06.754
+!MESSAGE  WARN [2017-06-09 13:30:06,754] (ComponentResource.java:loadFromFile:430) - File 'src/package.xml' does not exist
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 13:31:12.537
+!MESSAGE  WARN [2017-06-09 13:31:12,532] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'AddressTools/package.xml': Can't retrieve non-customizable CustomObject named: AddressValidateJob__c
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 13:31:12.540
+!MESSAGE  WARN [2017-06-09 13:31:12,538] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'AddressTools/package.xml': Can't retrieve non-customizable CustomObject named: ScheduledJob__c
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 13:31:12.546
+!MESSAGE  WARN [2017-06-09 13:31:12,540] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'AddressTools/package.xml': Can't retrieve non-customizable CustomObject named: SecurityToken__c
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 13:31:12.548
+!MESSAGE  WARN [2017-06-09 13:31:12,547] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'AddressTools/package.xml': Can't retrieve non-customizable CustomObject named: ScheduledJob__c
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 13:31:12.549
+!MESSAGE  WARN [2017-06-09 13:31:12,548] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'AddressTools/package.xml': Can't retrieve non-customizable CustomObject named: SecurityToken__c
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 13:31:12.551
+!MESSAGE  WARN [2017-06-09 13:31:12,550] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'AddressTools/package.xml': Can't retrieve non-customizable CustomObject named: AddressValidateJob__c
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 13:31:12.553
+!MESSAGE  WARN [2017-06-09 13:31:12,551] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Local Time App/package.xml': Can't retrieve non-customizable CustomObject named: lt_state_codes__mdt
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 13:31:12.555
+!MESSAGE  WARN [2017-06-09 13:31:12,553] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Local Time App/package.xml': Can't retrieve non-customizable CustomObject named: Timezone_Names__c
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 13:31:12.556
+!MESSAGE  WARN [2017-06-09 13:31:12,555] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Local Time App/package.xml': Can't retrieve non-customizable CustomObject named: local_time_ac__c
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 13:31:12.558
+!MESSAGE  WARN [2017-06-09 13:31:12,557] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Local Time App/package.xml': Can't retrieve non-customizable CustomObject named: lt_area_codes__mdt
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 13:31:12.560
+!MESSAGE  WARN [2017-06-09 13:31:12,559] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Local Time App/package.xml': Can't retrieve non-customizable CustomObject named: country_codes__c
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 13:31:12.562
+!MESSAGE  WARN [2017-06-09 13:31:12,561] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Local Time App/package.xml': Can't retrieve non-customizable CustomObject named: lt_country_names__mdt
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 13:31:12.564
+!MESSAGE  WARN [2017-06-09 13:31:12,563] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Local Time App/package.xml': Can't retrieve non-customizable CustomObject named: local_time__c
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 13:31:12.565
+!MESSAGE  WARN [2017-06-09 13:31:12,564] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Local Time App/package.xml': Can't retrieve non-customizable CustomObject named: lt_timezone_names__mdt
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 13:31:12.567
+!MESSAGE  WARN [2017-06-09 13:31:12,566] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Local Time App/package.xml': Can't retrieve non-customizable CustomObject named: lt_timezones__mdt
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 13:31:12.570
+!MESSAGE  WARN [2017-06-09 13:31:12,568] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Local Time App/package.xml': Can't retrieve non-customizable CustomObject named: local_time_app_settings__c
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 13:31:12.571
+!MESSAGE  WARN [2017-06-09 13:31:12,570] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Local Time App/package.xml': Can't retrieve non-customizable CustomObject named: na_local_time__c
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 13:31:12.572
+!MESSAGE  WARN [2017-06-09 13:31:12,571] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Local Time App/package.xml': Can't retrieve non-customizable CustomObject named: state_codes__c
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 13:31:12.574
+!MESSAGE  WARN [2017-06-09 13:31:12,573] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Local Time App/package.xml': Can't retrieve non-customizable CustomObject named: lt_state_codes__mdt
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 13:31:12.575
+!MESSAGE  WARN [2017-06-09 13:31:12,574] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Local Time App/package.xml': Can't retrieve non-customizable CustomObject named: Timezone_Names__c
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 13:31:12.577
+!MESSAGE  WARN [2017-06-09 13:31:12,576] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Local Time App/package.xml': Can't retrieve non-customizable CustomObject named: local_time_ac__c
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 13:31:12.578
+!MESSAGE  WARN [2017-06-09 13:31:12,577] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Local Time App/package.xml': Can't retrieve non-customizable CustomObject named: lt_area_codes__mdt
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 13:31:12.580
+!MESSAGE  WARN [2017-06-09 13:31:12,579] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Local Time App/package.xml': Can't retrieve non-customizable CustomObject named: country_codes__c
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 13:31:12.581
+!MESSAGE  WARN [2017-06-09 13:31:12,580] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Local Time App/package.xml': Can't retrieve non-customizable CustomObject named: local_time__c
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 13:31:12.582
+!MESSAGE  WARN [2017-06-09 13:31:12,581] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Local Time App/package.xml': Can't retrieve non-customizable CustomObject named: lt_country_names__mdt
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 13:31:12.584
+!MESSAGE  WARN [2017-06-09 13:31:12,583] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Local Time App/package.xml': Can't retrieve non-customizable CustomObject named: lt_timezone_names__mdt
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 13:31:12.585
+!MESSAGE  WARN [2017-06-09 13:31:12,584] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Local Time App/package.xml': Can't retrieve non-customizable CustomObject named: lt_timezones__mdt
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 13:31:12.586
+!MESSAGE  WARN [2017-06-09 13:31:12,585] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Local Time App/package.xml': Can't retrieve non-customizable CustomObject named: na_local_time__c
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 13:31:12.588
+!MESSAGE  WARN [2017-06-09 13:31:12,587] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Local Time App/package.xml': Can't retrieve non-customizable CustomObject named: state_codes__c
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 13:31:12.590
+!MESSAGE  WARN [2017-06-09 13:31:12,588] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Salesforce Connected Apps/package.xml': Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:ConnectedApp and file name:Workbench.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 13:31:12.591
+!MESSAGE  WARN [2017-06-09 13:31:12,590] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Salesforce Connected Apps/package.xml': Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:ConnectedApp and file name:Salesforce_for_Outlook.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 13:31:12.592
+!MESSAGE  WARN [2017-06-09 13:31:12,591] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Salesforce Connected Apps/package.xml': Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:ConnectedApp and file name:Salesforce_Touch.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 13:31:12.594
+!MESSAGE  WARN [2017-06-09 13:31:12,593] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Salesforce Connected Apps/package.xml': Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:ConnectedApp and file name:Salesforce_Mobile_Dashboards.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 13:31:12.595
+!MESSAGE  WARN [2017-06-09 13:31:12,594] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Salesforce Connected Apps/package.xml': Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:ConnectedApp and file name:Forcecom_Migration_Tool.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 13:31:12.597
+!MESSAGE  WARN [2017-06-09 13:31:12,596] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Salesforce Connected Apps/package.xml': Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:ConnectedApp and file name:Forcecom_IDE.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 13:31:12.598
+!MESSAGE  WARN [2017-06-09 13:31:12,597] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Salesforce Connected Apps/package.xml': Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:ConnectedApp and file name:Dataloader_Partner.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 13:31:12.599
+!MESSAGE  WARN [2017-06-09 13:31:12,598] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Salesforce Connected Apps/package.xml': Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:ConnectedApp and file name:Dataloader_Bulk.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 13:31:12.603
+!MESSAGE  WARN [2017-06-09 13:31:12,600] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Salesforce1 and Chatter Apps/package.xml': Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:ConnectedApp and file name:Salesforce_Chatterbox.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 13:31:12.605
+!MESSAGE  WARN [2017-06-09 13:31:12,603] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Salesforce1 and Chatter Apps/package.xml': Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:ConnectedApp and file name:SalesforceA.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 13:31:12.607
+!MESSAGE  WARN [2017-06-09 13:31:12,605] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Salesforce1 and Chatter Apps/package.xml': Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:ConnectedApp and file name:Salesforce1_for_Windows.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 13:31:12.609
+!MESSAGE  WARN [2017-06-09 13:31:12,607] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Salesforce1 and Chatter Apps/package.xml': Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:ConnectedApp and file name:Chatter_for_iOS.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 13:31:12.611
+!MESSAGE  WARN [2017-06-09 13:31:12,609] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Salesforce1 and Chatter Apps/package.xml': Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:ConnectedApp and file name:Chatter_for_BlackBerry.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 13:31:12.612
+!MESSAGE  WARN [2017-06-09 13:31:12,611] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Salesforce1 and Chatter Apps/package.xml': Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:ConnectedApp and file name:Chatter_for_Android.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 13:31:12.615
+!MESSAGE  WARN [2017-06-09 13:31:12,613] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Salesforce1 and Chatter Apps/package.xml': Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:ConnectedApp and file name:Chatter_Desktop.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 13:36:50.677
+!MESSAGE  WARN [2017-06-09 13:36:50,676] (ComponentResource.java:loadFromFile:430) - File 'src/package.xml' does not exist
+
+
+!ENTRY org.eclipse.egit.core 4 0 2017-06-09 13:43:18.189
+!MESSAGE An exception occurred during push on URI https://github.com/ruthirappan/Personal-Dev-Instance.git: An internal Exception occurred during push: Source ref refs/heads/master doesn't resolve to any object.
+!STACK 0
+org.eclipse.jgit.api.errors.JGitInternalException: Exception caught during execution of push command
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:190)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:217)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:77)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:48)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.IOException: Source ref refs/heads/master doesn't resolve to any object.
+	at org.eclipse.jgit.transport.RemoteRefUpdate.<init>(RemoteRefUpdate.java:288)
+	at org.eclipse.jgit.transport.RemoteRefUpdate.<init>(RemoteRefUpdate.java:192)
+	at org.eclipse.jgit.transport.Transport.findRemoteRefUpdatesFor(Transport.java:655)
+	at org.eclipse.jgit.transport.Transport.findRemoteRefUpdatesFor(Transport.java:1344)
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:158)
+	... 4 more
+
+!ENTRY org.eclipse.egit.ui 4 0 2017-06-09 13:43:18.208
+!MESSAGE Can't connect to any repository: https://github.com/ruthirappan/Personal-Dev-Instance.git (An internal Exception occurred during push: Source ref refs/heads/master doesn't resolve to any object.)
+
+!ENTRY org.eclipse.egit.core 4 0 2017-06-09 13:51:20.675
+!MESSAGE An exception occurred during push on URI https://github.com/ruthirappan/Personal-UAT-Instance.git: An internal Exception occurred during push: Source ref refs/heads/master doesn't resolve to any object.
+!STACK 0
+org.eclipse.jgit.api.errors.JGitInternalException: Exception caught during execution of push command
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:190)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:217)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:77)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:48)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.IOException: Source ref refs/heads/master doesn't resolve to any object.
+	at org.eclipse.jgit.transport.RemoteRefUpdate.<init>(RemoteRefUpdate.java:288)
+	at org.eclipse.jgit.transport.RemoteRefUpdate.<init>(RemoteRefUpdate.java:192)
+	at org.eclipse.jgit.transport.Transport.findRemoteRefUpdatesFor(Transport.java:655)
+	at org.eclipse.jgit.transport.Transport.findRemoteRefUpdatesFor(Transport.java:1344)
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:158)
+	... 4 more
+
+!ENTRY org.eclipse.egit.ui 4 0 2017-06-09 13:51:20.677
+!MESSAGE Can't connect to any repository: https://github.com/ruthirappan/Personal-UAT-Instance.git (An internal Exception occurred during push: Source ref refs/heads/master doesn't resolve to any object.)
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 14:02:36.325
+!MESSAGE  WARN [2017-06-09 14:02:36,322] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 14:04:57.502
+!MESSAGE  WARN [2017-06-09 14:04:57,501] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 14:06:11.750
+!MESSAGE  WARN [2017-06-09 14:06:11,749] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 14:11:34.290
+!MESSAGE  WARN [2017-06-09 14:11:34,289] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+
+
+!ENTRY org.eclipse.compare 4 1 2017-06-09 14:11:40.987
+!MESSAGE target 'org.eclipse.pde.internal.ui.compare.PluginContentMergeViewerCreator' not found
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-09 14:12:45.871
+!MESSAGE  WARN [2017-06-09 14:12:45,870] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+
+
+!ENTRY org.eclipse.egit.ui 4 0 2017-06-09 14:16:09.490
+!MESSAGE Nothing to fetch.
+!STACK 0
+org.eclipse.jgit.api.errors.TransportException: Nothing to fetch.
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:135)
+	at org.eclipse.jgit.api.PullCommand.call(PullCommand.java:280)
+	at org.eclipse.egit.core.op.PullOperation$1.run(PullOperation.java:200)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.egit.core.op.PullOperation.execute(PullOperation.java:232)
+	at org.eclipse.egit.ui.internal.pull.PullOperationUI.execute(PullOperationUI.java:176)
+	at org.eclipse.egit.ui.internal.pull.PullOperationUI.access$0(PullOperationUI.java:168)
+	at org.eclipse.egit.ui.internal.pull.PullOperationUI$1.runInWorkspace(PullOperationUI.java:141)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.jgit.errors.TransportException: Nothing to fetch.
+	at org.eclipse.jgit.transport.Transport.fetch(Transport.java:1177)
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:128)
+	... 10 more
+
+!ENTRY org.eclipse.egit.ui 4 0 2017-06-09 14:16:41.581
+!MESSAGE Nothing to fetch.
+!STACK 0
+org.eclipse.jgit.api.errors.TransportException: Nothing to fetch.
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:135)
+	at org.eclipse.jgit.api.PullCommand.call(PullCommand.java:280)
+	at org.eclipse.egit.core.op.PullOperation$1.run(PullOperation.java:200)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.egit.core.op.PullOperation.execute(PullOperation.java:232)
+	at org.eclipse.egit.ui.internal.pull.PullOperationUI.execute(PullOperationUI.java:176)
+	at org.eclipse.egit.ui.internal.pull.PullOperationUI.access$0(PullOperationUI.java:168)
+	at org.eclipse.egit.ui.internal.pull.PullOperationUI$1.runInWorkspace(PullOperationUI.java:141)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.jgit.errors.TransportException: Nothing to fetch.
+	at org.eclipse.jgit.transport.Transport.fetch(Transport.java:1177)
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:128)
+	... 10 more
